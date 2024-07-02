@@ -13,10 +13,3 @@ logging.basicConfig(
     format='[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO,
     )
-
-if __name__ == "__main__":
-    logging.info("This is a test message")
-    logging.error("This is an error message")
-    logging.warning("This is a warning message")
-    logging.debug("This is a debug message")
-    logging.critical("This is a critical message")
